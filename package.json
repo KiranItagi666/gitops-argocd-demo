@@ -1,0 +1,24 @@
+{
+  "name": "gitops-argocd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiranItagi666/gitops-argocd-demo.git"
+  },
+  "keywords": [],
+  "author": "Kiran Itagi",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KiranItagi666/gitops-argocd-demo/issues"
+  },
+  "homepage": "https://github.com/KiranItagi666/gitops-argocd-demo#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
