@@ -9,7 +9,7 @@ jobs:
 docker:
 runs-on: ubuntu-latest
 
-```
+
 steps:
 - name: Checkout Code
   uses: actions/checkout@v4
@@ -27,4 +27,4 @@ steps:
 - name: Push Docker Image
   run: |
     docker push kviondocker/gitops-argocd-demo:latest
-```
+
