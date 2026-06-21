@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: gitops-argocd-demo
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: gitops-argocd-demo
+
+  template:
+    metadata:
+      labels:
+        app: gitops-argocd-demo
+
+    spec:
+      containers:
+      - name: gitops-argocd-demo
+
+        image: gitops-argocd-demo:v1
+
+        imagePullPolicy: Never
+
+        ports:
+        - containerPort: 3000
